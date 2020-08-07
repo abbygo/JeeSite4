@@ -112,7 +112,7 @@ CREATE TABLE [js_sys_area]
 	[update_date] datetime NOT NULL,
 	[remarks] nvarchar(500),
 	PRIMARY KEY ([area_code])
-);
+)CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 
 -- 公司表
@@ -185,7 +185,7 @@ CREATE TABLE [js_sys_config]
 	[update_date] datetime NOT NULL,
 	[remarks] nvarchar(500),
 	PRIMARY KEY ([id])
-);
+)CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 
 -- 字典数据表
@@ -484,7 +484,7 @@ CREATE TABLE [js_sys_module]
 	[update_date] datetime NOT NULL,
 	[remarks] nvarchar(500),
 	PRIMARY KEY ([module_code])
-);
+)CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 
 -- 内部消息
